@@ -30,8 +30,15 @@ import config
 
 # Usage: config.set(section, key, value)
 config.set("competition", "robot_id", "A")
-config.set("colors", "red", )
+config.set("colors", "random_color", {
+  "min": (0, 80, 55),
+  "max": (30, 120, 255)
+})
+
+# Run config.save to persist changes
+config.save() 
 
 # Usage: config.get(section, key)
-config.get("competition", "robot_id")
+config.get("competition", "robot_id") # "A"
+config.get("competition", "random_color") # { "min": (0, 80, 55), "max": (30, 120, 255) })
 ```
