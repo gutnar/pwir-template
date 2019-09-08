@@ -38,6 +38,7 @@ def start():
         # Convert to HSV
         hsv = cv2.cvtColor(bgr, cv2.COLOR_BGR2HSV)
 
+        # TODO: also apply all the filters you do when actually running the robot (eg noise removal)
         # Apply color mask to HSV image
         mask = cv2.inRange(hsv, color_range["min"], color_range["max"])
 
