@@ -5,6 +5,7 @@ import config
 
 
 def start():
+    # optional TOOD: capture frames on separate thread
     # Capture camera
     device = config.get("vision", "video_capture_device")
     cap = cv2.VideoCapture(device)
@@ -26,8 +27,8 @@ def start():
 
         # TODO: also detect opponent basket
         # TODO: run AI
-
-        # TODO: make keyboard non-blocking
+        # optional TODO: run AI on separate thread
+        
         # Handle keyboard input
         key = cv2.waitKey(1)
 
