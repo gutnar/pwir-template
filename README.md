@@ -21,7 +21,8 @@ filtered_image = cv2.inRange(hsv_image, color_range["min"], color_range["max"])
 ## Configuration
 
 Use the config module (`src/config.py`) to save and load settings and color ranges. There is a
-`config.ini` file where your settings are saved.
+`config.ini` file where your settings are saved. You can change this file manually as well as using the Python module.
+For example, you might want to manually set the opponent basket color in this file.
 
 You can use the `src/config.py` module for saving any settings you need. You can save native Python
 objects such as string, int, dict, list, tuple. Example:
