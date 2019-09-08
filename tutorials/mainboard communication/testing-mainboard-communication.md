@@ -6,8 +6,8 @@
 https://os.mbed.com/users/Reiko/code/ut_bbr_2018/ (new)
 https://os.mbed.com/users/Reiko/code/ut_bbr/ (old)
 
-![Mainboard](mainboard.jpg?raw=true "Mainboard"){:height="50%" width="50%"}
-![Programmer](programmer.jpg?raw=true "Programmer" =250x250)
+![Mainboard](mainboard.jpg?raw=true "Mainboard")
+![Programmer](programmer.jpg?raw=true "Programmer")
 
 1. Compile the code, get binary file (bin)
 2. Upload the bin using the programmer
