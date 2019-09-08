@@ -24,7 +24,7 @@ Use the config module (`src/config.py`) to save and load settings and color rang
 `config.ini` file where your settings are saved. You can change this file manually as well as using the Python module.
 For example, you might want to manually set the opponent basket color in this file.
 
-You can use the `src/config.py` module for saving any settings you need. You can save native Python
+You can use the `src/config.py` module for saving and loading your settings. You can save and load native Python
 objects such as string, int, dict, list, tuple. Example:
 ```python
 import config
