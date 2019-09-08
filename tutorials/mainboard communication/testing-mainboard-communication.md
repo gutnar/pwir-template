@@ -1,5 +1,10 @@
 # Testing electronics
 
+## Requirements
+
+* windows: HTerm
+* linux: moserial
+
 ## Programmer
 
 ### Mainboard code
